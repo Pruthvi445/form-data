@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+
+input {
+  color: black;                       
+  border-radius: 10px;
+  border: 1px solid rgb(230, 176, 111);
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid #ef5d0f;
+  box-shadow: none;
+}
+
+
+
+input[type="radio"] {
+  accent-color: #ef5d0f;              
+  margin-right: 5px;
+}
+
+label {
+  color: black;
+}
+
+
+select {
+  color: black;
+  border: 1px solid rgb(230, 176, 111);
+  outline: none;
+}
+
+select:focus {
+  border: 1px solid #ef5d0f;
+  box-shadow: none;
+}
+
+
+textarea {
+  color: black;
+  border: 1px solid rgb(230, 176, 111);
+  outline: none;
+}
+
+textarea:focus {
+  border: 1px solid #ef5d0f;
+  box-shadow: none;
+}
+
+h1 {
+  color: rgb(222, 152, 22);
+}
